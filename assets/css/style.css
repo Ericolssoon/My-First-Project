@@ -55,3 +55,33 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+/* hero image */
+
+#hero-image {
+    height: 500px;
+    width: 100%;
+    background: url(../images/champions-league-2005-1531611.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* navigation bar */
+
+    #navigation {
+        color: blue;
+        margin-top:25%;
+    width: 100%;
+    background-color: black;
+    height:92px;
+    float: left;
+    border-top: 10x solid rgba(0,108,255,0.35);
+    text-align: center;
+    }
+    nav > a {
+        text-decoration: none;
+        color: beige;
+        margin: 2rem;
+        padding: 1rem;
+      
+        
+    }
