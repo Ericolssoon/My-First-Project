@@ -88,17 +88,24 @@ color: inherit;
     border-bottom: 1px solid blue;
     
 }
+ 
+/* News etc */
+
+section > h1 {
+    text-align: center;
+}
+
 
 
     /* footer */
 
     #footer {
         height: 150px;
-        
-        
-    }
-    
-    .social-networks {
+        bottom: 10%;
+       
+ }
+   
+         .social-networks {
         text-align: center;
       
     }
@@ -118,17 +125,7 @@ color: inherit;
 
     /* Map */
 
-    #map-wrapper {
-
-        height: 300px;
-        margin-bottom: 55px;
-    }
-    
-    #map {
-        height: 100%;
-        width: 100%;
-        border: none;
-    }
+   
 
 
     /* gallery */
@@ -142,5 +139,75 @@ color: inherit;
 
     #photos > img {
         width: 100%;
+    }
+
+    .ptable table{
+        margin: 3px auto;
+        border-collapse: collapse;
+        display: block;
+        left: 0;
+       
+     }
+    
+    .ptable{
+        display: block;
+        position: relative;
+    }
+    
+    th, td {
+        padding: 10px;
+    }
+    
+    th{
+        background-color: black;
+        color: #ffe221;
+    }
+    
+    .headin{
+       text-align: left;
+        text-decoration: none;
+        color: #111011da;
+        margin: 20px;
+        display: block;
+       
+        margin-top: auto;
+        margin-left: 50px;
+       
+    }
+    
+    .wpos{
+        text-align: center;
+    }
+    
+    .wpos td{
+        color: #77ff21;
+    }
+    
+    .pos{
+        text-align: center;
+    }
+    
+    .pos td{
+        color: #ff7b21;
+    }
+    
+    table .col{
+        border-bottom: 1px solid #FFFFFF;
+    }
+    
+    .wpos:hover{
+        background-color: #77ff21;
+    }
+    
+    .wpos:hover td{
+        color: #000000;
+    }
+    
+    .pos:hover{
+        background-color: #ff7b21;
+    }
+    
+    .pos:hover td{
+        color: #000000;
     }
 
