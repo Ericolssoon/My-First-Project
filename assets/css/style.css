@@ -96,45 +96,31 @@ section > h1 {
 }
 
 .content {
-    width: 60%;
+    max-width: 65%;
     margin: 20px auto 20px;
     border: 1px solid red;
-    float: right;
+    display: flex;
+    justify-content: center;
+   
 }
-.content, .maincontent {
-     width: 70%;
-    float: left;
-    border: 1px solid blue;
-}
-.content, .maincontent, .post {
-    width: 95%;
-    height: 270px;
-    margin: 10px auto;
-border-radius: 5px;
-background: white;
-
+.content img {
+    max-width: 60%;
 }
 
-.content, .maincontent, .post, .read-more {
 
-bottom: 10px;
-right: 10px;
-}
-
-.content, .maincontent, .post, .post-image {
-    width: 60%;
-    height: 100%;
-    float: left;
-}
 .preview-text {
     width: 60%;
     padding: 10px;
     
 }
-
-.content, .maincontent, .recent-post-title {
-    margin: 20px;
+.post {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 2.5rem;
 }
+
 
 .btn {
     padding: .5rem 1rem; 
@@ -194,17 +180,15 @@ right: 10px;
         width: 100%;
     }
 
+    #mainsection {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
     .ptable table{
         margin: 3px auto;
         border-collapse: collapse;
-        display: block;
-        left: 0;
-       
-     }
-    
-    .ptable{
-        display: block;
-        position: relative;
     }
     
     th, td {
@@ -266,12 +250,6 @@ right: 10px;
     }
 
 
-    #right-about {
-        padding-top: 30px;
-        width: 20%;
-       float: right;
-        background-color: #77ff21;
-    }
-
+ 
  
  
