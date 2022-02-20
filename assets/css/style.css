@@ -98,7 +98,7 @@ section > h1 {
 .content {
     max-width: 65%;
     margin: 20px auto 20px;
-    border: 1px solid red;
+    
     display: flex;
     justify-content: center;
    
@@ -249,7 +249,25 @@ section > h1 {
         color: #000000;
     }
 
+ /* History page */
+ 
+ #early-years {
+   clear:both;
+    line-height: 1;
+    }
+ 
+    .ey-heading {
+        padding-bottom: .5rem;
+        border-bottom: 2px solid black;
+    }
 
  
- 
- 
+.first-years {
+width: 50%;
+}
+
+.ey-container {
+    display: flex;
+    align-items: flex-start;
+}
+   
