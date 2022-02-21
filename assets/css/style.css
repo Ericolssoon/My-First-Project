@@ -95,21 +95,13 @@ section > h1 {
     text-align: center;
 }
 
-.content {
-    max-width: 65%;
-    margin: 20px auto 20px;
-    
-    display: flex;
-    justify-content: center;
-   
-}
-.content img {
-    max-width: 60%;
+#mainsection img {
+    max-width: 30vw;
 }
 
 
 .preview-text {
-    width: 60%;
+    width: 100%;
     padding: 10px;
     
 }
@@ -119,6 +111,12 @@ section > h1 {
     flex-wrap: wrap;
     flex-direction: column;
     padding-top: 2.5rem;
+    min-width: 30vw;
+    width: min-content;
+}
+
+.post-image { 
+    margin: 8px;
 }
 
 
@@ -134,6 +132,10 @@ section > h1 {
 .btn:hover {
     color: white !important;
     background: #005255;
+}
+
+table {
+    max-width: 90vw;
 }
 
     /* footer */
@@ -185,7 +187,7 @@ section > h1 {
     
     #mainsection {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         flex-wrap: wrap;
     }
 
@@ -278,4 +280,69 @@ line-height: 30px;
 }
 
 /*-- History page */
-   
+
+/* For larger to medium screen size from 1300px wide and down */
+/* Media queries */
+@media screen and (max-width: 1300px) {
+#mainsection {
+    
+    
+    margin: 0 auto;
+}
+.recent-post-title {
+    padding: 30px 0;
+    margin: 0;
+}
+.table {
+    width: 100%; 
+     padding: 0;
+}
+
+.headin {
+    text-align: left
+}
+
+}
+
+/* For medium screen sized from 950px wide and down */
+@media screen and (max-width: 950px) {
+    
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        line-height: 25px;
+
+    }
+
+    .content {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    
+   .post-image {
+       margin: 8px;
+   }
+}
+
+/* For small screen sizes 800px and down */
+
+@media screen and (max-width: 800px) {
+    #mainsection img {
+        max-width: 100%;
+    
+    }
+    .post {
+        width: 80%;
+        padding-top: 0.4rem;
+    }
+}
+
+/* For small screen sizes 450px and down */
+@media screen and (max-width: 450px) {
+    .headin {
+        width: 100%;
+    }
+}
