@@ -180,6 +180,9 @@ section > h1 {
         width: 100%;
     }
 
+ /*-- gallery */
+
+    
     #mainsection {
         display: flex;
         justify-content: space-between;
@@ -259,15 +262,20 @@ section > h1 {
     .ey-heading {
         padding-bottom: .5rem;
         border-bottom: 2px solid black;
+        font-size: 35px;
     }
 
  
 .first-years {
 width: 50%;
+line-height: 30px;
 }
 
 .ey-container {
     display: flex;
     align-items: flex-start;
+    font-size: 20px;
 }
+
+/*-- History page */
    
