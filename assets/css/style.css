@@ -302,6 +302,10 @@ line-height: 30px;
     text-align: left
 }
 
+#photos {
+    column-count: 3;
+}
+
 }
 
 /* For medium screen sized from 950px wide and down */
@@ -338,11 +342,19 @@ line-height: 30px;
         width: 80%;
         padding-top: 0.4rem;
     }
+
+    #photos {
+        column-count: 2;
+    }
 }
 
 /* For small screen sizes 450px and down */
 @media screen and (max-width: 450px) {
     .headin {
+        width: 100%;
+    }
+
+    .first-years {
         width: 100%;
     }
 }
