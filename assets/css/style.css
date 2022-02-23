@@ -19,6 +19,7 @@ h1, h2 {
     
     letter-spacing: 4px;
     color: #252525; 
+    text-align: center;
 }
 
 #logo {
@@ -268,7 +269,7 @@ table {
 
  
 .first-years {
-width: 50%;
+
 line-height: 30px;
 }
 
