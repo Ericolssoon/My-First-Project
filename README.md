@@ -69,3 +69,15 @@
     - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here - https://ericolssoon.github.io/My-first-project/
+
+## Credits
+
+### Code
+
+### Content 
+
+### Media
+
+### Acknowledgements
+
+- Tutor support at Code Institute for their support.
