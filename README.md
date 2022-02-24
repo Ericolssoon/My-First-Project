@@ -98,9 +98,21 @@ The live link can be found here - https://ericolssoon.github.io/My-first-project
 
 ### Code
 
+- The code to make the league table was taken from https://codepen.io/Shayley/pen/NWqrvqQ
+
 ### Content 
 
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
 ### Media
+
+- The photos used on the home page are from https://sempreinter.com
+
+- The images used for the gallery page are from:
+
+   - https://sportige.com
+   - https://football-italia.net
+   - https://www.reuters.com
 
 ### Acknowledgements
 
