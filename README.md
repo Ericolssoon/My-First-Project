@@ -37,14 +37,31 @@
 
    - The gallery will provide the user with images of different Inter players through the years.
 
+![Gallery](assets/images/Gallery_.png)
+
 * __The History Page__
 
    - This page is valuable to the user and to the website because if you want to learn more about the clubs epochs you can do it here.
 
+![History](assets/images/History_page.png)
+
+### Future features
+
+   - An idea i have is to have a live updating league table (If its possible)
+   - A forum for football/Inter fans
+
+
+## Testing
+
+- I tested that this page works in different browsers: Opera, Chrome, Microsoft Edge.
+
+- I confirmed that the the navigation, header, gallery and history page are all readable and easy to understand.
+
+- I confirmed that this project is responsive. looks good and functions on all standard screen sizes using the devtools device toolbar.
 
 
 
-## Validator test
+### Validator test
 
 <ul>
 <li>Html </li>
@@ -55,6 +72,7 @@
 <p> No errors were returned when passing through the official (Jigsaw) validator</p>
 </ul>
 
+![Validator Test](assets/images/validator_.png) 
 
 ## Deployment
 
