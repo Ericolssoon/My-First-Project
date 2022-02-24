@@ -223,7 +223,7 @@ table {
     }
     
     .wpos td{
-        color: #77ff21;
+        color: #000000;
     }
     
     .pos{
@@ -231,7 +231,7 @@ table {
     }
     
     .pos td{
-        color: #ff7b21;
+        color: #000000;
     }
     
     table .col{
@@ -239,7 +239,7 @@ table {
     }
     
     .wpos:hover{
-        background-color: #77ff21;
+        background-color: #5fe50a;
     }
     
     .wpos:hover td{
@@ -247,7 +247,7 @@ table {
     }
     
     .pos:hover{
-        background-color: #ff7b21;
+        background-color: #d3dfd4fc;
     }
     
     .pos:hover td{
