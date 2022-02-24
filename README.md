@@ -76,7 +76,7 @@ Inter is a team from the legendary history, and this website helps the intereste
 </ul>
 
  
-![Validator Test](assets/images/validator_.png)
+![Validator Test](assets/images/validator_test.png)
 
 
 
