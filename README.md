@@ -72,7 +72,9 @@
 <p> No errors were returned when passing through the official (Jigsaw) validator</p>
 </ul>
 
-![Validator Test](assets/images/validator_.png) 
+ 
+- hewhehy
+
 
 ## Deployment
 
